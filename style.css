@@ -1,0 +1,49 @@
+
+body {
+
+    background-color: rgb(159, 186, 202);
+
+}
+
+#menu {
+
+    background-color: rgb(54, 54, 173) ;
+    margin-bottom: 30px;
+    border-top: 20px solid rgb(20,20,80);
+    border-bottom: 20px solid rgb(20, 20, 80);
+
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, auto) ;
+    text-align: center;
+
+}
+
+#menu a {
+
+    color: whitesmoke;
+    /* text-decoration: solid; */
+    text-decoration: none;
+}
+
+#menu :hover{
+
+    background-color: whitesmoke;
+    color: blue;
+}
+
+.principal {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+
+.arrumar{
+
+    height: 350px;
+    width: 350px;
+    object-fit: fill;
+}
