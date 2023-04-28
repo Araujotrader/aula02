@@ -1,3 +1,9 @@
+html * {
+
+    font-family: monospace;
+    font-size:larger;
+}
+
 
 body {
 
@@ -8,13 +14,13 @@ body {
 #menu {
 
     background-color: rgb(54, 54, 173) ;
-    margin-bottom: 30px;
-    border-top: 20px solid rgb(20,20,80);
-    border-bottom: 20px solid rgb(20, 20, 80);
+    margin-bottom: 40px;
+    border-top: 15px solid rgb(20,20,80);
+    border-bottom: 15px solid rgb(20, 20, 80);
 
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(4, auto) ;
+    grid-template-columns: repeat(5, auto) ;
     text-align: center;
 
 }
@@ -35,9 +41,10 @@ body {
 .principal {
 
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     text-align: center;
+    padding: 100px;
 }
 
 
@@ -46,4 +53,20 @@ body {
     height: 350px;
     width: 350px;
     object-fit: fill;
+}
+
+.rodape {
+    background-color: rgb(54, 54, 173) ;
+    margin-bottom: 30px;
+    border-top: 10px solid rgb(20,20,80);
+    border-bottom: 10px solid rgb(20, 20, 80);
+    display: grid;
+    text-align: center;
+}
+
+.rodape a {
+
+    color: whitesmoke;
+    /* text-decoration: solid; */
+    text-decoration: none;
 }
